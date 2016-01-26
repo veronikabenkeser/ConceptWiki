@@ -12,4 +12,9 @@ This project was built as a part of Free Code Camp's Front-End Development curri
 3. Once Wikipedia generates a list of linked terms, the app searches Google to find an image that matches that term and displays it on the screen.
 4. Concept visualization is done via Cytoscape, an open-source platform for visualizing networks. 
 
+<img src="http://i867.photobucket.com/albums/ab236/Veronika_and_Robert/Screenshot%20from%202016-01-26%20071322_zpspp3vwkhy.png" class="img-responsive" alt="">
+
+<img src="http://i867.photobucket.com/albums/ab236/Veronika_and_Robert/Screenshot%20from%202016-01-26%20131320_zpsmdc8avu0.png" class="img-responsive" alt="">
+
+
 Designed of the front page was inspired by www.instactables.com .
