@@ -16,4 +16,7 @@ This project was built as a part of Free Code Camp's Front-End Development curri
 
 <img src="http://i867.photobucket.com/albums/ab236/Veronika_and_Robert/Screenshot%20from%202016-01-26%20131320_zpsmdc8avu0.png" class="img-responsive" alt="">
 
+<h2>Try it:</h2>
+http://codepen.io/veronikabenkeser/full/pgpqXq/
+
 Designed of the front page was inspired by www.instactables.com .
