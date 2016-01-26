@@ -510,9 +510,8 @@
     }
 
     function populateAllImages(nodes) {
+        
         //Go through all of the nodes and assign an image to each one.
-        //var nodes = cy.nodes();
-
         nodes.forEach(function(node) {
             if (node.data('thumbnail') !== "") {
                 var pic = node.data('thumbnail');
@@ -573,7 +572,6 @@
         }
     }
 
-    ///function testImage(url, callback, timeout) {
     function imageExists(url, callback, timeout) {
 
         timeout = timeout || 5000;
@@ -678,7 +676,6 @@
             avoidOverlap: true, // if true, prevents overlap of node bounding boxes
             handleDisconnected: true, // if true, avoids disconnected components from overlapping
             nodeSpacing: function(node) {
-                /* return 15;*/
                 return 25;
             }, // extra spacing around nodes
             flow: undefined, // use DAG/tree flow layout if specified, e.g. { axis: 'y', minSeparation: 30 }
@@ -702,7 +699,6 @@
         window.cy.layout();
         var bounds = cy.elements().boundingBox();
         $('#cy').css('height', bounds.h + 300);
-        /*cy.boxSelectionEnabled(false);*/
         cy.center();
         cy.resize();
     }
