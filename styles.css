@@ -1,0 +1,346 @@
+  .loader {
+     position: fixed;
+     left: 0px;
+     top: 0px;
+     width: 100%;
+     height: 100%;
+     z-index: 9999;
+     background: url('http://i358.photobucket.com/albums/oo27/picturesqueworlds/3941_zpsfjufwx3p.gif') 50% 50% no-repeat rgba(255, 255, 255, 0.9);
+ }
+ #errorM {
+     background-color: rgba(255, 255, 204, 0.5)
+ }
+ html,
+ body {
+     width: 100%;
+     height: 100%;
+     color: black;
+     background: url("http://i358.photobucket.com/albums/oo27/picturesqueworlds/7787024278_da2b9ea5da_o_zpsby9jy9c8.jpg");
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+ .row {
+     margin-right: 0;
+     margin-left: 0;
+ }
+ .typed-text {
+     font-size: 36px; 
+     font-family: "Courier New", monospace;
+     font-family: 'Shadows Into Light', cursive;
+     display: inline-block;
+     vertical-align: bottom;
+ }
+ @media all and (min-width: 481px) {
+     .searchDiv {
+         padding-top: 22px;
+         margin-left: 116px;
+         float: left;
+         width: 500px;
+         position: absolute;
+     }
+ }
+ @media only screen and (max-device-width: 480px) {
+     .typed-container p {
+         font-size: 1em;
+     }
+     .typed-text {
+         font-size: 14px;
+         line-height: 0.1em;
+     }
+     .cursor {
+         font-size: 0.7em !important;
+         font-family: "Courier New", monospace !important;
+         line-height: 0.1em;
+     }
+     .blinking-box {
+         height: 1.4em !important;
+         border-bottom: 2px solid white !important;
+     }
+     #wiki {
+         width: 64px !important;
+         height: auto;
+         margin: 15px 0 0 0px!important;
+     }
+     .instructions-cont h4 {
+         display: none !important;
+     }
+     .searchDiv {
+         padding-top: 22px;
+     }
+     .span-container {
+         /*     margin-top:7px; */
+         
+         margin-top: 7px;
+         height: 30px;
+     }
+ }
+ .cursor {
+     /*font-family: cursive;*/
+     /*font-family: "Courier New", monospace;*/
+     /*font-size: 4vw;*/
+     
+     font-family: cursive;
+     /*   font-size: 3.5vw; */
+     
+     font-size: 36px;
+     /*    font-size:0.5em; */
+     /*   max-size:36px; */
+     
+     font-weight: 400;
+     display: inline-block;
+     vertical-align: bottom;
+ }
+ @media all and (min-width: 1035px) {
+     .cursor {
+         font-size: 46px;
+     }
+     .typed-text {
+         font-size: 50px;
+     }
+ }
+ .col-md-12 {
+     padding-right: 0;
+     padding-left: 0;
+ }
+ .container {
+     padding-right: 0;
+     padding-left: 0;
+     width: 100%;
+     margin-right: auto;
+     margin-left: auto;
+ }
+ #header {
+     background-color: #E6E6E6;
+     height: 70px;
+     position: relative;
+ }
+ #subheader {
+     height: 46px;
+ }
+ #header img {
+     float: left;
+     cursor: pointer;
+     margin-top: 10px;
+     margin-left: 20px;
+     -webkit-filter: drop-shadow(3px 3px 3px #222);
+     filter: drop-shadow(3px 3px 3px #222);
+ }
+ h2 {
+     text-align: left !important;
+     margin-left: 90px;
+     margin-top: -10px;
+     line-height: normal;
+     padding-top: 3px;
+     font-family: 'Amatic SC', cursive !important;
+ }
+ .main-text {
+     text-align: center;
+     font-weight: 400;
+     font-size: 2.5em;
+     font-family: 'Shadows Into Light', cursive;
+ }
+ #you {
+     font-weight: 900;
+     font-size: 0.97em;
+ }
+ 
+ #search {
+     vertical-align: middle;
+     white-space: nowrap;
+     display: inline-block;
+ }
+ #rand-button p {
+     text-align: center;
+     font-family: 'Amatic SC', cursive;
+     font-weight: 550;
+     font-size: 1.8em;
+     line-height: 38px;
+     color: black;
+ }
+ #rand-button p:hover {
+     color: white;
+ }
+ #rand-button {
+     text-align: center;
+     display: inline-block;
+     z-index: 1;
+     height: 38px;
+     width: 90px;
+     position: absolute;
+     overflow: hidden;
+     margin-left: 20px;
+     border-radius: 4px;
+     background-color: #B8B8B8;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -ms-box-sizing: border-box;
+     -o-box-sizing: border-box;
+     box-sizing: border-box;
+     -webkit-box-shadow: inset 0 1px #e5e7ed, 0 1px 0 #fcfcfc;
+     -moz-box-shadow: inset 0 1px #e5e7ed, 0 1px 0 #fcfcfc;
+     -ms-box-shadow: inset 0 1px #e5e7ed, 0 1px 0 #fcfcfc;
+     -o-box-shadow: inset 0 1px #e5e7ed, 0 1px 0 #fcfcfc;
+     box-shadow: inset 0 1px #e5e7ed, 0 1px 0 #fcfcfc;
+ }
+ #search input {
+     outline: none;
+     height: 38px;
+     width: 180px;
+     padding: 0 51px 0 10px;
+     border-width: 1px;
+     border-style: solid;
+     border-color: #a8acbc #babdcc #c0c3d2;
+     border-radius: 4px;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -ms-box-sizing: border-box;
+     -o-box-sizing: border-box;
+     box-sizing: border-box;
+     -webkit-box-shadow: inset 0 1px #e5e7ed, 0 1px 0 #fcfcfc;
+     -moz-box-shadow: inset 0 1px #e5e7ed, 0 1px 0 #fcfcfc;
+     -ms-box-shadow: inset 0 1px #e5e7ed, 0 1px 0 #fcfcfc;
+     -o-box-shadow: inset 0 1px #e5e7ed, 0 1px 0 #fcfcfc;
+     box-shadow: inset 0 1px #e5e7ed, 0 1px 0 #fcfcfc;
+ }
+ #search input:hover,
+ #search input:focus,
+ #search input:active {
+     outline: none;
+ }
+ #search .icon-container {
+     z-index: 1;
+     height: 38px;
+     width: 40px;
+     position: absolute;
+     overflow: hidden;
+     margin-left: 140px;
+     border-radius: 0 4px 4px 0;
+     background-color: #B8B8B8;
+     color: black;
+ }
+ #search .icon-container .icon {
+     margin-left: 14px;
+     position: absolute;
+     margin-top: 12px;
+ }
+ #search .icon-container:hover,
+ #search .icon-container .icon:hover,
+ #rand-button:hover {
+     background-color: #2b303b;
+     color: white;
+     cursor: pointer;
+ }
+ .carousel-content {
+     position: absolute;
+     bottom: 40%;
+     left: 10%;
+     z-index: 20;
+     color: white;
+     text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+     font-family: 'Shadows Into Light', cursive;
+     font-weight: 400;
+     font-size: 60px;
+     font-size: 7vw;
+     cursor: pointer;
+ }
+ .typed-container .blinking-box2 {
+     display: inline-block;
+     position: relative;
+ }
+ .blinking-box {
+     cursor: text;
+     height: 45px;
+     width: 39vw;
+     font-size: 32px;
+     border: none;
+     outline: none;
+     color: white;
+     border-bottom: 4px solid white;
+     margin-left: 10px;
+     cursor: text;
+     background: none;
+ }
+ .span-container {
+     position: absolute;
+     top: -17%;
+     left: 14px;
+ }
+ .typed-container p {
+     display: inline-block;
+ }
+ .carousel-inner .item {
+     opacity: 0.2;
+     -webkit-transition-property: opacity;
+     -moz-transition-property: opacity;
+     -o-transition-property: opacity;
+     transition-property: opacity;
+ }
+ .carousel-inner .active {
+     opacity: 1;
+     transition: opacity 1.5s linear;
+     -webkit-transition: opacity 1.5s linear;
+ }
+ .carousel-inner .next.left,
+ .carousel-inner .prev.right {
+     opacity: 0.8;
+ }
+ .carousel-control {
+     background-image: none !important;
+     /* remove background gradients on controls */
+ }
+ .green-search:hover,
+ .green-search:focus {
+     box-shadow: 0 0 0 5px white;
+ }
+ .green-search {
+     padding: 12px 12px 8px 10px;
+     padding: 0.99vw 0.99vw 0.6vw 0.8vw;
+     display: inline-block;
+     -moz-border-radius: 140px;
+     -webkit-border-radius: 140px;
+     border-radius: 140px;
+     -moz-box-shadow: 0 0 0 2px white;
+     -webkit-box-shadow: 0 0 0 2px white;
+     box-shadow: 0 0 0 2px white;
+     text-align: center;
+     color: white;
+     height: auto;
+     width: 90px;
+     width: 5.9vw;
+ }
+ .item .slide-img {
+     min-height: 200px;
+     max-height: 600px;
+     width: 100%;
+ }
+ .instructions-cont {
+     vertical-align: middle;
+     display: inline-block;
+     height: 30px;
+ }
+ h4 {
+     font-family: 'Shadows Into Light', cursive;
+     font-weight: 400;
+     margin: 0 auto;
+     font-size: 23px;
+ }
+ /*Concept Map*/
+ 
+ #cy {
+     width: 100%;
+     background: url("http://i358.photobucket.com/albums/oo27/picturesqueworlds/7787024278_da2b9ea5da_o_zpsby9jy9c8.jpg");
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+ }
+ footer {
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     color: black;
+ }
