@@ -1,4 +1,5 @@
 <h1>ConceptWiki</h1>
+This project was built as a part of Free Code Camp's Front-End Development curriculum.
 
 <h2>User Stories</h2>
 1. As a user, I can search Wikipedia entries and get a visual representation of the resulting Wikipedia entries.
